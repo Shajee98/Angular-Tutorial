@@ -1,0 +1,19 @@
+{
+    "accessories":
+    [{
+        "name": "keyboard",
+        "price": 30
+    },
+    {
+        "name": "mouse",
+        "price": 20
+    },
+    {
+        "name": "HDMI cable",
+        "price": 7
+    },
+    {
+        "name": "Cooling Pad",
+        "price": 25
+    }]
+}

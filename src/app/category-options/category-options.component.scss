@@ -1,0 +1,19 @@
+.options-list {
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    border: 1px solid black;
+    width: min-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.option {
+    background-color: crimson;
+    color: white;
+    width: 200px;
+    border: 1px solid grey;
+}
+

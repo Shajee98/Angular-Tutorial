@@ -1,0 +1,22 @@
+<div>
+    <div class="modal-header bg-info">
+        <h4 class="modal-title">Add Product</h4>
+        <button type="button" class="close" aria-label="Close" (click)="activeModal.dismiss('Cross click')">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    <div class="modal-body">
+        <div class="form-feild">
+            <label for="name">Name</label>
+            <input type="text" id="name" [(ngModel)]='product.name'/>
+        </div>
+        <div class="form-feild">
+            <label for="price">Price</label>
+            <input type="number" id="price"  [(ngModel)]='product.price'/>
+        </div>
+    </div>
+    <div class="modal-footer bg-info">
+        <button (click)="addProduct()">Add</button>
+        <button>Cancel</button>
+    </div>
+</div>

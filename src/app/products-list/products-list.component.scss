@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+    color: grey;
+}
+
+.productListcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.productContainer {
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.productContainer svg {
+    height: 30px;
+    cursor: pointer;
+}
+
+.product {
+    display: flex;
+    padding: 5px;
+    width: 200px;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.productListcontainer:not(:last-child) {
+    margin-bottom: 10px;
+}

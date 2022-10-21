@@ -1,0 +1,14 @@
+.navbar {
+    height: 50px;
+    width: 100%;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.navItem {
+    margin-right: 10px;
+    cursor: pointer;
+}
