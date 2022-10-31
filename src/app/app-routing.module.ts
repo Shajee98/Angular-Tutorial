@@ -11,17 +11,16 @@ const routes: Routes = [
   // },
   {
     path: 'home',
-    component: ProductsListComponent
+    component: ProductsListComponent,
   },
   {
     path: 'product-details/:productId',
     component: ProductDetailsComponent,
-  }
-
+  },
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}

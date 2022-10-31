@@ -13,6 +13,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { ProductDetailsComponent } from './product-details/product-details.component';
 import { CategoryOptionsComponent } from './category-options/category-options.component';
 import { CategoryItemsComponent } from './category-items/category-items.component';
+import { ProductsComponent } from './products/products.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { CategoryItemsComponent } from './category-items/category-items.componen
     ProductDetailsComponent,
     CategoryOptionsComponent,
     CategoryItemsComponent,
+    ProductsComponent,
   ],
   imports: [
     BrowserModule,

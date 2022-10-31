@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.product {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

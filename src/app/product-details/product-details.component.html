@@ -1,5 +1,11 @@
-<p>product-details works!</p>
+<!-- <p>product-details works!</p> -->
 <!-- <div *ngIf="showModal">
     <ng-container [ngTemplateOutlet]="content.templateRef"></ng-container>
   </div> -->
-  <ng-content select="[question]"></ng-content>
+<!-- <ng-content select="[question]"></ng-content> -->
+<div class="container">
+  <div class="product" *ngIf="product != undefined">
+    <h2>{{ product.name }}</h2>
+    <h2>{{ product.price }}</h2>
+  </div>
+</div>

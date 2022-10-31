@@ -1,9 +1,12 @@
 <app-navbar></app-navbar>
-<add-product *ngIf="showModal" (productCreated)="productAdded($event)">
-</add-product>
+<!-- <add-product *ngIf="showModal" (productCreated)="productAdded($event)">
+</add-product> -->
+<div class="container">
+  <div>
+    <products></products>
+  </div>
+  <div>
+    <product-details></product-details>
+  </div>
+</div>
 <router-outlet></router-outlet>
-<!-- <input type="text" [(ngModel)]="name"> -->
-<!-- <ng-template prodcutDetailContent>It depends</ng-template> -->
-<!-- <product-details>
-  <p question>Hello</p>s
-</product-details> -->
